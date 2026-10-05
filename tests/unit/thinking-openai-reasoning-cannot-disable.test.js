@@ -11,6 +11,10 @@ import { getThinkingLevels } from "../../open-sse/providers/thinkingLevels.js";
 // disabling -- and these models simply did not declare it.
 const REASONING_MODELS = [
   ["codex", "gpt-6-astra"],
+  ["codex", "gpt-6-sol"],
+  ["codex", "gpt-6-luna"],
+  ["codex", "gpt-6-astra[1m]"],
+  ["codex", "gpt-5.6-sol[1m]"],
   ["codex", "gpt-5.6-sol"],
   ["codex", "gpt-5.6-terra"],
   ["codex", "gpt-5.6-luna"],
